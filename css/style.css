@@ -104,6 +104,7 @@ main img{
     font-size: 15px;
     padding: 12px 15px;
     border-radius: 14px;
+    box-shadow: #0d5966;
 }
 
 main p{
@@ -150,6 +151,7 @@ main form .inputContainer input,select{
     width: 120px;
     font-size: 15px;
     border-radius: 0%;
+    box-shadow: #0d5966;
 }
 .btn-enviar:hover{
     transition: 1s ease-in-out;
@@ -170,6 +172,7 @@ main form .inputContainer input,select{
     color: white;
     border-radius: 5px;
     width: 300px;
+
 }
 
 .inputContainer{
@@ -193,6 +196,7 @@ main form .inputContainer input,select{
     width: 180px;
     height: 180px;
     align-self: center;
+    margin-inline: ;
 }
 #imagenphyton{
     width: 230px;
