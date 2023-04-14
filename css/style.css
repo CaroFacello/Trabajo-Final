@@ -8,28 +8,28 @@
 }
 
 html{
-    height: 100vw;
+    height: 100%;
 }
 
 body {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0px;
     background-color: rgb(209, 229, 247);
     display: flex;
     flex-direction: column;
     min-height: 100%;
-
+    
 }
 
 header{
     background-color: rgb(13, 117, 165);
     display: flex;
     justify-content: space-between;
-    padding: 3vh 7vw;
+    padding: 3vh 6vw;
     color: rgb(255, 255, 255);
-    margin: 3vh 3vw;
+    margin: 4vh 3vw;
 }
 h1{
     font-size: 32px;
@@ -69,13 +69,14 @@ header h2 {
 }
 
 main{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-size: 100%;
     flex-direction:column;
     align-items: center;
     gap: 10vh;
     padding: 3vh 6vw;
+    align-content: space-between;
     }
 
 main img{
@@ -83,6 +84,7 @@ main img{
     padding: auto;
     border: auto;
     vertical-align: middle;
+    justify-content: right;
     display:flex;
     width: 700px;
     border-radius: 10px;
@@ -113,6 +115,8 @@ main p{
     margin-top: 5%;
     
 }
+
+
 
 footer {
     background-color: rgb(13, 117, 165);
@@ -196,7 +200,7 @@ main form .inputContainer input,select{
     width: 180px;
     height: 180px;
     align-self: center;
-    margin-inline: ;
+
 }
 #imagenphyton{
     width: 230px;
